@@ -1,13 +1,5 @@
 name: bump
-on:
-  push:
-    branches:
-      - master
-      - dev
-      - ci-test
-      - ci-lerna
-      - ci-lerna-test
-      - hydra-v3
+on: push
 
 env:
   CI: true
